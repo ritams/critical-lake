@@ -117,6 +117,12 @@ ipython_config.py
 .pdm-python
 .pdm-build/
 
+# abstra
+#   Similar to Pipfile.lock, it is generally recommended to include abstra.lock in version control.
+#abstra.lock
+#   Abstra creates a virtual environment in the .abstra directory, just like venv module creates one
+.abstra
+
 # pixi
 #   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
 #pixi.lock
@@ -205,3 +211,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+legacy/
